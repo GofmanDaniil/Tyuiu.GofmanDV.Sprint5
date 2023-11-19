@@ -12,7 +12,7 @@ namespace Tyuiu.GofmanDV.Sprint5.Task2.V6.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string path = @"C:\Users\моторовадана\source\repos\Tyuiu.MotorovaDD.Sprint5\Tyuiu.MotorovaDD/Sprint5.Task2.V6\bin\Debug\OutPutFileTask2.csv";
+            string path = @"C:\Users\user\source\repos\Tyuiu.GofmanDV.Sprint5\Tyuiu.GofmanDV.Sprint5.Task2.V6\bin\Debug\OutPutFileTask2.csv";
             FileInfo file = new FileInfo(path);
             bool exists = file.Exists;
             bool wait = false;

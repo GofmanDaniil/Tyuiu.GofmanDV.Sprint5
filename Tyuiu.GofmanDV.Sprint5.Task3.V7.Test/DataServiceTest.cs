@@ -1,18 +1,19 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using Tyuiu.GofmanDV.Sprint5.Task1.V16.Lib;
 using System.IO;
-namespace Tyuiu.GofmanDV.Sprint5.Task1.V16.Test
+using Tyuiu.GofmanDV.Sprint5.Task3.V7.Lib;
+
+namespace Tyuiu.GofmanDV.Sprint5.Task3.V7.Test
 {
     [TestClass]
-    public class DataSeviceTest
+    public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Task3()
         {
-            string path = @"C:\Users\user\source\repos\Tyuiu.GofmanDV.Sprint5\Tyuiu.GofmanDV.Sprint5.Task1.V16\bin\Debug\OutPutFileTask1.txt";
+            string path = @"C:\Users\user\source\repos\Tyuiu.GofmanDV.Sprint5\Tyuiu.GofmanDV.Sprint5.Task3.V7\bin\Debug\OutPutFileTask3.bin";
 
             FileInfo fileInfo = new FileInfo(path);
+
             bool fileExists = fileInfo.Exists;
             bool wait = true;
             Assert.AreEqual(wait, fileExists);
